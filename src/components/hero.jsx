@@ -14,8 +14,8 @@ export default function Hero() {
   }
 
   return (
-    <section className="hero" id="home">
-      {/* Animated background orbs */}
+    <section className="hero pt-24 md:pt-28" id="home">
+      {/* Anim  ated background orbs */}
       <div className="hero-bg">
         <div className="orb orb-1" />
         <div className="orb orb-2" />

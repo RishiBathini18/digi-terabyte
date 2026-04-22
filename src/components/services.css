@@ -201,4 +201,25 @@
   .services { padding: 60px 16px; }
   .services-grid { grid-template-columns: 1fr; }
   .section-head { margin-bottom: 40px; }
+
+  /* 🔥 ADD BELOW */
+
+  .service-card {
+    height: auto;            /* prevent cutting */
+    padding-bottom: 20px;
+  }
+
+  .service-cta {
+    margin-top: 16px;
+    display: block;
+    text-align: center;
+  }
+
+  .service-link {
+    display: inline-block;
+    padding: 10px 16px;
+    background: #1a56ff;
+    color: white;
+    border-radius: 8px;
+  }
 }
